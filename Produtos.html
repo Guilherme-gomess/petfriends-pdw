@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.Produtos.css">
+    <style>
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 860px;
+            background-image: url(./Imagens/1000_F_241539734_2gqxlY6krzCWpJ3TGndi7CsAOwn3AgM3.jpg);
+            background-size: cover;
+            background-position: center;
+            opacity: 0.4;
+            z-index: -1;
+    }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides"> 
+            <input type="radio" name="radio-btn" id="radio1" checked>
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="./Imagens/promoçao 1.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="./Imagens/promoçao 2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="./Imagens/promoçao 3.jpg" alt="Imagem 3">
+            </div>
+            <div class="slide">
+                <img src="./Imagens/promoçao 4.jpg" alt="Imagem 4">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js/Slide.js"></script>
+
+    <div class="container">
+        <div class="card">
+            <img src="./Imagens/produto 1.jpg" style="width: 180px; height: 180px;"> <br>
+            <p> Ração Golden Gatos Castrados Salmão </p>
+            <a><strong> R$ 89,99 </strong></a>
+        </div>
+
+        <div class="card">
+            <img src="./Imagens/produto 2.jpg" style="width: 180px; height: 180px;"> <br>
+            <p> Kit Ração Gatos Jovens </p>
+            <a><strong> R$ 125,99 </strong></a>
+        </div>
+
+        <div class="card">
+            <img src="./Imagens/produto 3.jpg"> <br>
+            <p> Ração Úmida Whiskas Sachê Carne ao Molho para Gatos Adultos </p> <br>
+            <a><strong> R$ 150,49 </strong></a>
+        </div>
+    
+        <div class="card">
+            <img src="./Imagens/produto 4.jpg"> <br>
+            <p> Keldog Bifinho Evolutivo Criadores Churrasco - 500G </p> <br>
+            <a><strong> R$ 51,99 </strong></a>
+        </div>
+
+        <div class="card">
+            <img src="./Imagens/produto 5.jpg"> <br>
+            <p> Purina Friskies Ração Gatos Castrados Friskies Mix De Carne - 10 1Kg </p> <br>
+            <a><strong> R$ 112,50 </strong></a>
+        </div>
+
+        <div class="card">
+            <img src="./Imagens/produto 6.jpg"> <br>
+            <p> Affinity GranPlus - Choice Cães Adultos Frango Carne, Ração Guabi - 15kg </p> <br>
+            <a><strong> R$ 149,99 </strong></a>
+        </div>
+    </div>
+</body>
+</html>
